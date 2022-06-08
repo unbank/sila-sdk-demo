@@ -70,3 +70,10 @@ In Terminal, using the `cd` command, enter into your sila-sdk-demo project folde
 
 Run the project:
 ### `npm start`
+
+
+## Docker Way
+
+```bash
+docker-compose up -d
+```

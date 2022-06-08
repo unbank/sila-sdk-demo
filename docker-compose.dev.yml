@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    image: sila
+    # env_file: './.env.local'
+    build: ./
+    volumes:
+      - ./:/app
+    environment:
+      - PUBLIC_URL=https://localhost:3000
+      - PORT=3000
+    ports:
+      - 18350:3000
